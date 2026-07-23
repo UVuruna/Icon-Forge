@@ -1,0 +1,31 @@
+{
+  "_comment": "Icon Forge entry map. 'target' is relative to the monorepo root; 'svg' resolves against the project dir first, then the monorepo root. 'shortcut' is relative to the desktop VSCode-Projects folder. Hidden projects live in manifest.local.json (gitignored).",
+
+  "roots": [
+    { "name": "UVuruna",          "shortcut": "Root/UVuruna (ROOT).lnk",          "target": ".",                        "svg": "sources/roots/UVuruna.svg",         "ico": "root-UVuruna" },
+    { "name": "Applications",     "shortcut": "Root/Applications (ROOT).lnk",     "target": "Applications",             "svg": "sources/roots/Applications.svg",    "ico": "root-Applications" },
+    { "name": "Gadgets",          "shortcut": "Root/Gadgets (ROOT).lnk",          "target": "Gadgets",                  "svg": "sources/roots/Gadgets.svg",         "ico": "root-Gadgets" },
+    { "name": "Games",            "shortcut": "Root/Games (ROOT).lnk",            "target": "Games",                    "svg": "sources/roots/Games.svg",           "ico": "root-Games" },
+    { "name": "Machine Learning", "shortcut": "Root/Machine Learning (ROOT).lnk", "target": "Machine Learning",         "svg": "sources/roots/MachineLearning.svg", "ico": "root-MachineLearning" },
+    { "name": "WebSites",         "shortcut": "Root/WebSites (ROOT).lnk",         "target": "WebSites",                 "svg": "sources/roots/WebSites.svg",        "ico": "root-WebSites" }
+  ],
+
+  "projects": [
+    { "name": "Input DNA",             "shortcut": "InputDNA.lnk",             "target": "Machine Learning/Input DNA",             "svg": "logos/InputDNA.svg",          "ico": "InputDNA" },
+    { "name": "Unreal Voice Sampler",  "shortcut": "Unreal Voice Sampler.lnk", "target": "Machine Learning/Unreal Voice Sampler",  "svg": "logos/UnrealVoiceSampler.svg","ico": "UnrealVoiceSampler" },
+    { "name": "Vitals",                "shortcut": "Vitals.lnk",               "target": "Gadgets/Vitals",                         "svg": "logos/Vitals.svg",            "ico": "Vitals" },
+    { "name": "PromptPainter",         "shortcut": "PromptPainter.lnk",        "target": "Gadgets/PromptPainter",                  "svg": "logos/PromptPainter.svg",     "ico": "PromptPainter" },
+    { "name": "DOMY Watch",            "shortcut": "DOMY Watch.lnk",           "target": "Gadgets/DOMY Watch",                     "svg": "logos/DOMYWatch.svg",         "ico": "DOMYWatch" },
+    { "name": "Ultra Vivid",           "shortcut": "Ultra Vivid.lnk",          "target": "Gadgets/Ultra Vivid",                    "svg": "logos/UltraVivid.svg",        "ico": "UltraVivid" },
+    { "name": "Icon Forge",            "shortcut": "Icon Forge.lnk",           "target": "Gadgets/Icon Forge",                     "svg": "assets/logo.svg",             "ico": "IconForge" },
+    { "name": "RHMH",                  "shortcut": "RHMH.lnk",                 "target": "Applications/RHMH",                      "svg": "logos/RHMH.svg",              "ico": "RHMH" },
+    { "name": "Remote User",           "shortcut": "Remote User.lnk",          "target": "Applications/Remote User",               "svg": "logos/RemoteUser.svg",        "ico": "RemoteUser" },
+    { "name": "Mladen Vuruna",         "shortcut": "MVuruna.lnk",              "target": "WebSites/Mladen Vuruna",                 "svg": "logos/MladenVuruna.svg",      "ico": "MladenVuruna" },
+    { "name": "Colorize SVG",          "shortcut": "Colorize SVG.lnk",         "target": "WebSites/Colorize SVG",                  "svg": "logos/ColorizeSVG.svg",       "ico": "ColorizeSVG" },
+    { "name": "Prirodni Sokovi",       "shortcut": "PrirodniSokovi.lnk",       "target": "WebSites/Prirodni Sokovi",               "svg": "logos/PrirodniSokovi.svg",    "ico": "PrirodniSokovi" },
+    { "name": "Vaske Komarnici",       "shortcut": "Vaske-Komarnici.lnk",      "target": "WebSites/Vaske Komarnici",               "svg": "logos/VaskeKomarnici.svg",    "ico": "VaskeKomarnici" },
+    { "name": "Texas Hold'em Poker",   "shortcut": "THP Enhanced.lnk",         "target": "Games/THP Enhanced",                     "svg": "logos/TexasHoldemPoker.svg",  "ico": "TexasHoldemPoker" },
+    { "name": "Chess",                 "shortcut": "Legacy/ChessGame.lnk",     "target": "Games/ChessGame",                        "svg": "logos/Chess.svg",             "ico": "Chess" },
+    { "name": "Tic-Tac-Toe",           "shortcut": "Legacy/TicTacToe.lnk",     "target": "Games/TicTacToe",                        "svg": "logos/TicTacToe.svg",         "ico": "TicTacToe" }
+  ]
+}

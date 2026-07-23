@@ -1,0 +1,19 @@
+# Owner's inbox (root Rule #18) — local only
+UV/
+
+# Generated ICO output — computed from SVG on demand (root Rule #19)
+ico/
+
+# Local-only sources & manifest (hidden projects) — never pushed
+sources_local/
+manifest.local.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Temp
+*.tmp
+.shortcuts.json
