@@ -15,7 +15,7 @@
     { "name": "Unreal Voice Sampler",  "shortcut": "Unreal Voice Sampler.lnk", "target": "Machine Learning/Unreal Voice Sampler",  "svg": "logos/UnrealVoiceSampler.svg","ico": "UnrealVoiceSampler" },
     { "name": "Vitals",                "shortcut": "Vitals.lnk",               "target": "Gadgets/Vitals",                         "svg": "logos/Vitals.svg",            "ico": "Vitals" },
     { "name": "PromptPainter",         "shortcut": "PromptPainter.lnk",        "target": "Gadgets/PromptPainter",                  "svg": "logos/PromptPainter.svg",     "ico": "PromptPainter" },
-    { "name": "DOMY Watch",            "shortcut": "DOMY Watch.lnk",           "target": "Gadgets/DOMY Watch",                     "svg": "logos/DOMYWatch.svg",         "ico": "DOMYWatch" },
+    { "name": "Watch Academy",         "shortcut": "Watch Academy.lnk",        "target": "Gadgets/DOMY Watch",                     "svg": "logos/WatchAcademy.svg",      "ico": "WatchAcademy" },
     { "name": "Ultra Vivid",           "shortcut": "Ultra Vivid.lnk",          "target": "Gadgets/Ultra Vivid",                    "svg": "logos/UltraVivid.svg",        "ico": "UltraVivid" },
     { "name": "Icon Forge",            "shortcut": "Icon Forge.lnk",           "target": "Gadgets/Icon Forge",                     "svg": "assets/logo.svg",             "ico": "IconForge" },
     { "name": "RHMH",                  "shortcut": "RHMH.lnk",                 "target": "Applications/RHMH",                      "svg": "logos/RHMH.svg",              "ico": "RHMH" },
