@@ -9,7 +9,7 @@ lives here, never inline in the modules.
 import os
 from pathlib import Path
 
-# --- Locations -------------------------------------------------------------
+# ═══════════════════════════ LOCATIONS ═══════════════════════════
 
 # This project's own folder: .../UVuruna/Gadgets/Icon Forge
 PROJECT_DIR = Path(__file__).resolve().parent
@@ -52,7 +52,7 @@ MANIFEST_LOCAL = PROJECT_DIR / "manifest.local.json"  # hidden projects; optiona
 # PowerShell helper that actually writes the .lnk files.
 SHORTCUT_SCRIPT = PROJECT_DIR / "core" / "write_shortcuts.ps1"
 
-# --- Rendering -------------------------------------------------------------
+# ═══════════════════════════ RENDERING ═══════════════════════════
 
 # ICO frames. Windows Explorer uses up to 256 for shell icons — that is the
 # real cap for a .lnk icon, so the ICO tops out at 256. Larger raster is
