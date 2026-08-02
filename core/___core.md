@@ -6,36 +6,29 @@ isolation.
 
 ## Files
 
-### `converter.py` — SVG/PNG → ICO/PNG
-Renders a source into a multi-resolution ICO (and optional 512px PNG). SVG is
-rendered with an anti-aliased `QPainter` at a supersampled size then Lanczos
-downscaled; raster input is resized directly. Same proven render as the build
-pipelines' `svg_to_ico.py` (root Rule #5). See [Converter](converter.md).
-
-### `manifest.py` — entry model
-Loads `manifest.json` (+ optional `manifest.local.json`) and resolves every raw
-row into an `Entry` with absolute SVG / ICO / target / shortcut paths and
-status properties. See [Manifest](manifest.md).
-
-### `paths.py` — path resolution
-`resolve_svg` (project dir → monorepo `logos/`) and `resolve_target` (against
-the monorepo root). See [Paths](paths.md).
-
-### `shortcuts.py` — shortcut writer
-Builds a spec per entry and delegates the actual `.lnk` creation to
-`write_shortcuts.ps1`. See [Shortcuts](shortcuts.md).
-
-### `write_shortcuts.ps1` — WScript.Shell creator
-Reads a JSON spec list and creates/updates each `.lnk` via the
-`WScript.Shell` COM object (TargetPath = VS Code, Arguments = the folder,
-IconLocation = the generated ICO). Called only by `shortcuts.py`; never run by
-hand. No individual `.md` — a generated helper described here.
+| File | Tier | One line |
+|------|------|----------|
+| `converter.py` | Algorithmic | SVG/PNG → ICO/PNG render engine — [about](__about/converter.md) · [flow](__flow/converter.md) |
+| `manifest.py` | Standard | loads `manifest.json` (+local) into `Entry` objects — [about](__about/manifest.md) |
+| `paths.py` | Standard | resolves manifest paths against project dir / monorepo root — [about](__about/paths.md) |
+| `shortcuts.py` | Algorithmic | builds specs, hands off to `write_shortcuts.ps1` — [about](__about/shortcuts.md) · [flow](__flow/shortcuts.md) |
+| `write_shortcuts.ps1` | Trivial | PowerShell `WScript.Shell` `.lnk` writer, called only by `shortcuts.py`; never run by hand |
+| `__init__.py` | Trivial | empty package marker |
 
 ## Connections
 
 ### Used by
-- [CLI Runner](../run.md) — orchestrates convert + sync
-- [GUI Worker](../gui/worker.md) — runs the same batch off the UI thread
+- [CLI Runner](../__about/run.md) — orchestrates convert + sync
+- [GUI Worker](../gui/__about/worker.md) — runs the same batch off the UI
+  thread
+- [App](../gui/__about/app.md) — one-off `convert_file()`
 
 ### Uses
-- [Config](../config.md) — paths, ICO sizes, supersample factors
+- [Config](../__about/config.md) — paths, ICO sizes, supersample factors
+
+## Design Decisions
+`write_shortcuts.ps1` stays Trivial tier deliberately (root DOCS.md tier
+table: glue/wiring under ~60 lines with no branching logic of its own beyond
+"create the dir if missing, then set the four shortcut properties") — its
+protocol is described inside `shortcuts.py`'s own flow doc, since that is
+where the caller-side decisions (skip vs write, cleanup) actually live.
