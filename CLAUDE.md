@@ -82,7 +82,8 @@ user-specific is baked into code.
 
 ## Communication
 
-Serbian (Latin) with the owner; everything in files stays English.
+Per root `CLAUDE.md` → Universal Conduct (language rule) — no project-specific
+tightening.
 
 ## Layout Teeth — pending migration (2026-08-06)
 
@@ -93,3 +94,8 @@ bites in every session; what this project still owes is the per-project
 audit — window registry, computed minimums fitting 1280x720, screenshots
 opened and graded >= 8/10. Reference implementations: Remote User
 (tests/test_layout_audit_qt.py) and DOMY Watch (tests/test_layout_audit.py).
+
+GUI work here is also governed by the Zubi v2 algorithmic teeth and Grader v2
+([../../rules/GUI.md](../../rules/GUI.md) → Zubi v2) — status here: **pending
+rollout** (no `tests/test_layout_audit_qt.py` / `layout_checks_qt.py`
+installed in this project's `tests/` yet).
