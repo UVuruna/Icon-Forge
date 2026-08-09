@@ -24,3 +24,6 @@ venv/
 # .claude/ (local overrides, session state) is not.
 .claude/*
 !.claude/settings.json
+
+# Claude Code working folder - never tracked (owner decree 2026-08-09)
+.claude/
