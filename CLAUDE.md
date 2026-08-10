@@ -93,7 +93,7 @@ work here follows [MIGRATE-LAYOUT.md](../../MIGRATE-LAYOUT.md) +
 bites in every session; what this project still owes is the per-project
 audit — window registry, computed minimums fitting 1280x720, screenshots
 opened and graded >= 8/10. Reference implementations: Remote User
-(tests/test_layout_audit_qt.py) and DOMY Watch (tests/test_layout_audit.py).
+(tests/test_layout_audit_qt.py) and Watch Academy (tests/test_layout_audit.py).
 
 GUI work here is also governed by the Zubi v2 algorithmic teeth and Grader v2
 ([../../rules/GUI.md](../../rules/GUI.md) → Zubi v2) — status here: **pending

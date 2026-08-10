@@ -12,10 +12,10 @@
 
   "projects": [
     { "name": "Input DNA",             "shortcut": "InputDNA.lnk",             "target": "Machine Learning/Input DNA",             "svg": "logos/InputDNA.svg",          "ico": "InputDNA" },
-    { "name": "Unreal Voice Sampler",  "shortcut": "Unreal Voice Sampler.lnk", "target": "Machine Learning/Unreal Voice Sampler",  "svg": "logos/UnrealVoiceSampler.svg","ico": "UnrealVoiceSampler" },
+    { "name": "Voice Print",           "shortcut": "Voice Print.lnk",          "target": "Machine Learning/Voice Print",           "svg": "logos/VoicePrint.svg",        "ico": "VoicePrint" },
     { "name": "Vitals",                "shortcut": "Vitals.lnk",               "target": "Gadgets/Vitals",                         "svg": "logos/Vitals.svg",            "ico": "Vitals" },
     { "name": "PromptPainter",         "shortcut": "PromptPainter.lnk",        "target": "Gadgets/PromptPainter",                  "svg": "logos/PromptPainter.svg",     "ico": "PromptPainter" },
-    { "name": "Watch Academy",         "shortcut": "Watch Academy.lnk",        "target": "Gadgets/DOMY Watch",                     "svg": "logos/WatchAcademy.svg",      "ico": "WatchAcademy" },
+    { "name": "Watch Academy",         "shortcut": "Watch Academy.lnk",        "target": "Gadgets/Watch Academy",                     "svg": "logos/WatchAcademy.svg",      "ico": "WatchAcademy" },
     { "name": "Ultra Vivid",           "shortcut": "Ultra Vivid.lnk",          "target": "Gadgets/Ultra Vivid",                    "svg": "logos/UltraVivid.svg",        "ico": "UltraVivid" },
     { "name": "Icon Forge",            "shortcut": "Icon Forge.lnk",           "target": "Gadgets/Icon Forge",                     "svg": "assets/logo.svg",             "ico": "IconForge" },
     { "name": "RHMH",                  "shortcut": "RHMH.lnk",                 "target": "Applications/RHMH",                      "svg": "logos/RHMH.svg",              "ico": "RHMH" },

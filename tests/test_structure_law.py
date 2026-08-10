@@ -10,7 +10,7 @@ that.
 
 The law exists because insistence without enforcement has failed
 repeatedly elsewhere in this monorepo (PromptPainter's `gui.py` at 8,800
-lines; DOMY Watch's `defaults.py` at 3,498) — all flagged, all tolerated,
+lines; Watch Academy's `defaults.py` at 3,498) — all flagged, all tolerated,
 because no test failed. This one fails.
 
 The RATCHET is EMPTY: the 2026-08-02 docs-migration inventory found no
